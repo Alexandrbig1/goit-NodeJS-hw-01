@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "index.js",
+    "dev": "index.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

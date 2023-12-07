@@ -1,4 +1,5 @@
 # goit-NodeJS-hw-01
+
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
 This project is part of my learning journey in the Fullstack Bootcamp at GoIT.
@@ -7,16 +8,16 @@ This project is part of my learning journey in the Fullstack Bootcamp at GoIT.
 
 ### Screenshots:
 
-![goit-NodeJS-hw-01](./public/images/movies-screen1.jpg)
+![goit-NodeJS-hw-01](./src/images/hw-1.jpg)
 _Caption for Screenshot 1 (listContacts)_
 
-![goit-NodeJS-hw-01](./public/images/movies-screen2.jpg)
+![goit-NodeJS-hw-01](./src/images/hw-2.jpg)
 _Caption for Screenshot 2 (getContactById)_
 
-![goit-NodeJS-hw-01](./public/images/movies-screen2.jpg)
+![goit-NodeJS-hw-01](./src/images/hw-3.jpg)
 _Caption for Screenshot 3 (addContact)_
 
-![goit-NodeJS-hw-01](./public/images/movies-screen2.jpg)
+![goit-NodeJS-hw-01](./src/images/hw-4.jpg)
 _Caption for Screenshot 4 (removeContact)_
 
 ## Languages and Tools:

@@ -1,21 +1,37 @@
 {
+  "name": "goit-nodejs-hw-01",
+  "author": "Alex Smagin",
+  "license": "ISC",
   "type": "module",
+  "description": "Node.js CLI Contact Manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript",
+    "typescript",
+    "node-js",
+    "homework",
+    "fullstack",
+    "bootcamp",
+    "cli",
+    "command-line",
+    "contacts",
+    "manager",
+    "uuid",
+    "file-system"
+  ],
   "scripts": {
     "start": "node src/index",
     "dev": "nodemon src/index"
   },
-  "name": "goit-nodejs-hw-01",
-  "description": "",
-  "version": "1.0.0",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0",
     "nodemon": "^3.0.2"
   },
   "dependencies": {
+    "commander": "^11.1.0",
     "uuid": "^9.0.1"
   }
 }

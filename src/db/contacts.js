@@ -26,15 +26,18 @@ async function getContactById(contactId) {
 async function removeContact(contactId) {
   try {
     const contacts = await listContacts();
-    const result = contacts.filter((contact) => contact.id === contactId);
-    return result || null;
+    const index = contacts.findIndex((item) => item.id === contactId);
+    if (index === -1) {
+      return null;
+    }
+    const result = contacts.splice(index, 1);
+    return result;
   } catch (error) {
     console.error("Error reading file:", error.message);
   }
 }
 
 async function addContact(name, email, phone) {
-  // ...твій код. Повертає об'єкт доданого контакту.
   const contacts = await listContacts();
   const newContact = {
     id: uuidv4(),
@@ -43,11 +46,8 @@ async function addContact(name, email, phone) {
     phone,
   };
   const result = [...contacts, newContact];
-  // contacts.push(newContact);
-  await fs.writeFile(contactsPath, JSON.stringify(result));
+  await fs.writeFile(contactsPath, JSON.stringify(result, null, 2));
   return newContact;
 }
 
-// Export Default
-// module.exports = { contactsPath, listContacts };
 export { listContacts, getContactById, removeContact, addContact };

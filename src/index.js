@@ -1,10 +1,21 @@
+import { program } from "commander";
 import {
   getContactById,
   listContacts,
   removeContact,
   addContact,
 } from "./db/contacts.js";
-// const argv = require("yargs").argv;
+
+program
+  .option("-a, --action <type>")
+  .option("-i, --id <type>")
+  .option("-n, --name <type>")
+  .option("-e, --email <type>")
+  .option("-p, --phone <type>");
+
+program.parse();
+
+const argv = program.opts();
 
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
@@ -33,11 +44,4 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-invokeAction({
-  action: "add",
-  name: "John",
-  email: "john@mail.com",
-  phone: "123456789",
-});
-// invokeAction({ action: "remove", id: "qdggE76Jtbfd9eWJHrssH" });
-// invokeAction(argv);
+invokeAction(argv);

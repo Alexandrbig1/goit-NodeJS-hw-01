@@ -3,6 +3,22 @@
 
 This project is part of my learning journey in the Fullstack Bootcamp at GoIT.
 
+## Project Preview
+
+### Screenshots:
+
+![goit-NodeJS-hw-01](./public/images/movies-screen1.jpg)
+_Caption for Screenshot 1 (listContacts)_
+
+![goit-NodeJS-hw-01](./public/images/movies-screen2.jpg)
+_Caption for Screenshot 2 (getContactById)_
+
+![goit-NodeJS-hw-01](./public/images/movies-screen2.jpg)
+_Caption for Screenshot 3 (addContact)_
+
+![goit-NodeJS-hw-01](./public/images/movies-screen2.jpg)
+_Caption for Screenshot 4 (removeContact)_
+
 ## Languages and Tools:
 
 <div align="center">  

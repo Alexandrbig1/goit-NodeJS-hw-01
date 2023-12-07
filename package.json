@@ -1,7 +1,7 @@
 {
   "name": "goit-nodejs-hw-01",
   "author": "Alex Smagin",
-  "license": "ISC",
+  "license": "MIT",
   "type": "module",
   "description": "Node.js CLI Contact Manager",
   "version": "1.0.0",

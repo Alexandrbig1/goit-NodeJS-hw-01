@@ -1,9 +1,21 @@
 {
+  "type": "module",
   "scripts": {
-    "start": "index.js",
-    "dev": "index.js"
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "name": "goit-nodejs-hw-01",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
   },
   "dependencies": {
-    "nodemon": "^3.0.2"
+    "uuid": "^9.0.1"
   }
 }

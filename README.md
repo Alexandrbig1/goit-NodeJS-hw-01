@@ -1,8 +1,20 @@
-# goit-NodeJS-hw-01
-
+## CLI Contact Manager
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
-This project is part of my learning journey in the Fullstack Bootcamp at GoIT.
+
+This is a simple command-line interface (CLI) program built with Node.js for managing contacts. It allows you to perform basic operations on a JSON file containing contact information such as ID, name, phone number, and email.
+
+## Features
+- **View All Contacts:** Retrieve a list of all contacts stored in the JSON file.
+- **Get Contact by ID:** Find a specific contact using their unique identifier.
+- **Delete Contact by ID:** Remove a contact from the list based on their ID.
+- **Add New Contact:** Append a new contact to the JSON file with a generated ID.
+
+## Technologies Used
+- **Node.js:** The runtime environment for executing the CLI program.
+- **Commander:** A framework for building command-line applications, providing a clean and structured way to define commands and options.
+- **uuid:** Used for generating unique IDs for each contact.
+- **fs/promises:** File system module for handling file operations asynchronously.
 
 ## Project Preview
 

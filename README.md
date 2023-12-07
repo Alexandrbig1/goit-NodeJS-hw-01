@@ -16,6 +16,45 @@ This is a simple command-line interface (CLI) program built with ![Alt text](htt
 - **uuid:** Used for generating unique IDs for each contact.
 - **fs/promises:** File system module for handling file operations asynchronously.
 
+## How to Use
+
+1. **Install Dependencies:**
+    ``` bash
+    npm install
+1. **Run the CLI:**
+    ``` bash
+    node src/index.js --<command> [options]
+
+## Available Commands
+
+- **list:** Display all contacts.
+    ``` bash
+    node src/index.js --action list
+- **get:** Get contact by ID.
+    ``` bash
+    node src/index.js --action get --id <contactId>
+- **remove:** Delete contact by ID.
+    ``` bash
+    node src/index.js --action remove --id <contactId>
+- **add:** Add a new contact.
+    ``` bash
+    node src/index.js --action add --name <name> --email <email> --phone <phone_number>
+
+## Examples
+
+- **List all contacts:**
+    ``` bash
+    node src/index.js --action list
+- **Get contact by ID:**
+    ``` bash
+    node src/index.js --action get --id 05olLMgyVQdWRwgKfg5J6
+- **Remove contact by ID:**
+    ``` bash
+    node src/index.js --action remove --id qdggE76Jtbfd9eWJHrssH
+- **Add a new contact:**
+    ``` bash
+    node src/index.js --action add --name "John Doe" --email "john.doe@example.com" --phone "+1234567890"
+
 ## Project Preview
 
 ### Screenshots:

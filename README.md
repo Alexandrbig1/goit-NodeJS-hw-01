@@ -6,6 +6,18 @@
 
 This is a simple command-line interface (CLI) program built with ![Alt text](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white) for managing contacts. It allows you to perform basic operations on a ![Alt text](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) file containing contact information such as ID, name, phone number, and email.
 
+## Table of Contents
+
+- [Features](#features)
+- [Technologies](#technologies)
+- [How to Use](#HowtoUse)
+- [Examples](#Examples)
+- [Screenshots](#Screenshots)
+- [Issues](#Issues)
+- [License](#License)
+- [Feedback](#Feedback)
+- [Connect with me](#Connectwithme)
+
 ## Features
 - **View All Contacts:** Retrieve a list of all contacts stored in the ![Alt text](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) file.
 - **Get Contact by ID:** Find a specific contact using their unique identifier.

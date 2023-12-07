@@ -2,13 +2,13 @@
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
 
-This is a simple command-line interface (CLI) program built with ![Alt text](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white) for managing contacts. It allows you to perform basic operations on a JSON file containing contact information such as ID, name, phone number, and email.
+This is a simple command-line interface (CLI) program built with ![Alt text](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white) for managing contacts. It allows you to perform basic operations on a ![Alt text](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) file containing contact information such as ID, name, phone number, and email.
 
 ## Features
 - **View All Contacts:** Retrieve a list of all contacts stored in the ![Alt text](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) file.
 - **Get Contact by ID:** Find a specific contact using their unique identifier.
 - **Delete Contact by ID:** Remove a contact from the list based on their ID.
-- **Add New Contact:** Append a new contact to the JSON file with a generated ID.
+- **Add New Contact:** Append a new contact to the ![Alt text](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) file with a generated ID.
 
 ## Technologies Used
 - ![Alt text](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white) The runtime environment for executing the CLI program.

@@ -1,6 +1,8 @@
 ## CLI Contact Manager
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
+[![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/goit-NodeJS-hw-01)](https://github.com/Alexandrbig1/goit-NodeJS-hw-01/commits/main)
+[![GitHub license](https://img.shields.io/github/license/Alexandrbig1/goit-NodeJS-hw-01)](https://github.com/Alexandrbig1/goit-NodeJS-hw-01/blob/main/LICENSE)
 
 This is a simple command-line interface (CLI) program built with ![Alt text](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white) for managing contacts. It allows you to perform basic operations on a ![Alt text](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) file containing contact information such as ID, name, phone number, and email.
 
@@ -70,6 +72,18 @@ _Caption for Screenshot 3 (addContact)_
 
 ![goit-NodeJS-hw-01](./src/images/hw-4.jpg)
 _Caption for Screenshot 4 (removeContact)_
+
+## Issues
+
+If you encounter any issues or have suggestions, please [open an issue](https://github.com/Alexandrbig1/goit-NodeJS-hw-01/issues).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Feedback
+
+I welcome feedback and suggestions from users to improve the application's functionality and user experience.
 
 ## Languages and Tools:
 

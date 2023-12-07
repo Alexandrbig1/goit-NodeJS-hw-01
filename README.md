@@ -9,14 +9,11 @@ This is a simple command-line interface (CLI) program built with ![Alt text](htt
 ## Table of Contents
 
 - [Features](#features)
-- [Technologies](#technologies)
-- [How to Use](#HowtoUse)
 - [Examples](#Examples)
 - [Screenshots](#Screenshots)
 - [Issues](#Issues)
 - [License](#License)
 - [Feedback](#Feedback)
-- [Connect with me](#Connectwithme)
 
 ## Features
 - **View All Contacts:** Retrieve a list of all contacts stored in the ![Alt text](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) file.

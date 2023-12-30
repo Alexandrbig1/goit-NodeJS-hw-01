@@ -3,6 +3,7 @@
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/goit-NodeJS-hw-01)](https://github.com/Alexandrbig1/goit-NodeJS-hw-01/commits/main)
 [![GitHub license](https://img.shields.io/github/license/Alexandrbig1/goit-NodeJS-hw-01)](https://github.com/Alexandrbig1/goit-NodeJS-hw-01/blob/main/LICENSE)
+[![Node.js Version](https://img.shields.io/badge/Node.js-v18.18.0-green)](https://nodejs.org/)
 
 This is a simple command-line interface (CLI) program built with ![Alt text](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white) for managing contacts. It allows you to perform basic operations on a ![Alt text](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white) file containing contact information such as ID, name, phone number, and email.
 
